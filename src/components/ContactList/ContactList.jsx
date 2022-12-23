@@ -20,10 +20,6 @@ export const ContactList = props => {
 };
 
 ContactList.propTypes = {
-  list: PropTypes.arrayOf(PropTypes.number.isRequired).isRequired,
-  onLeaveFeedback: PropTypes.func.isRequired,
-};
-ContactList.propTypes = {
   list: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string.isRequired,
